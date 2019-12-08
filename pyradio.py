@@ -32,7 +32,7 @@ class InterfaceVars(bpy.types.PropertyGroup):
 # ------------------------------------------------------------------------
     
 class EXAMPLE_OT_Rotation(bpy.types.Operator):
-    bl_idname = "object.examplerotation"
+    bl_idname = "object.rotation"
     bl_label = "Rotate"
  
     def execute(self, context):
@@ -48,7 +48,7 @@ class EXAMPLE_OT_Rotation(bpy.types.Operator):
  
 class EXAMPLE_PT_RotationPanel(bpy.types.Panel):
     bl_context = "objectmode"
-    bl_idname = "object.examplerotationpanel"
+    bl_idname = "object.rotationpanel"
     bl_label = "RotationPanel"
     bl_space_type = "VIEW_3D"
     bl_region_type = "TOOLS"
