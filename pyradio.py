@@ -1,3 +1,6 @@
+#Original, Pre-2.81 Code found here: https://b3d.interplanety.org/en/creating-radio-buttons-in-the-blender-add-ons-interface/
+#Updated to 2.81 by IntrepidArtisan, who isn't the original author of the original code.
+
 import bpy
 import math
 
